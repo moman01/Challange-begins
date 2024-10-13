@@ -178,7 +178,8 @@ padding-bottom: 2rem;
 .iframe{
 border-radius: 16px;
 border: 1px solid rgba(13, 19, 33, 0.20);
-padding: 2rem;
+padding:  32px;
+
 }
 
 .target{
