@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap);
 *{
     margin: 0;
     padding: 0;
@@ -313,6 +313,61 @@ opacity: 0.7;
 font-weight: 700;
 text-decoration-line: underline;
  }
-a:hover{
+.next-common a:hover{
     color: crimson;
+}
+.support{
+    width: 80vw;
+    margin: 3rem auto;
+    border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),  url(./assets/handshake.jpg) lightgray 50% / cover no-repeat;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+padding: 64px 48px;
+}
+
+.support h2{
+    color: #FFF;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; 
+}
+.support p{
+    color: #FFF;
+text-align: center;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.support input{
+    width: 500px;
+    border-radius: 8px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: #FFF;
+padding: 20px;
+
+}
+.support button{
+    border: none;
+    border-radius: 8px;
+background: #FFF;
+color: #0D1321;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+padding: 17px;
+
+}
+.support button:hover{
+    background-color: crimson;
 }
