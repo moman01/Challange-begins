@@ -78,6 +78,10 @@ line-height: normal;
 padding: 1.5rem;
 cursor: pointer;
 }
+.banner button a{
+    text-decoration: none;
+    color: #FFF;
+}
 .why-section{
     padding-top: 10rem;
     width: 70vw;
